@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Arquivo CSS/StiloEscuro.css">
+
+
+<body>
+<!--------------------------HEADER---------------------->    
+    <header id="titulo">
+        <h1>Apresentação</h1>
+    </header>
+<!---------------------------NAV------------------------>    
+
+    <nav id="menu">
+        <a href="ResumeEscuro.html">Sobre Mim</a>
+        <a href="FormacaoEscuro.html">Formações</a>
+        <a href="PortifolioEscuro.html">Portifolio</a>
+        <a href="ContatoEscuro.html">Contatos</a>
+    </nav>
+    
+<!--------------------BOTAO DE MODO CLARO------------------------>    
+
+    <button id="botao" onclick="tema()">Deseja acessar o modo Claro?</button>
+
+    <script>
+        function tema(){
+            let pop = confirm("Deseja navegar no modo claro?");
+	    if (pop) {window.location.href = "PortifolioClaro.html";}
+        else{window.location.href = "PortifolioEscuro.html"}
+        }
+    </script>
+
+<!----------------------SECTION PART-------------------->
+
+    <section>
+        <div id="conteudo">
+            <h1 >Projetos Acadêmicos</h2><br>
+            <p>Alimentador Automatizado de Pet: Desenvolvimento de um projeto integrado de automação, envolvendo programação de Arduino, elaboração de diagramas elétricos e criação da estrutura do projeto. Com interesse em fazer com que a alimentação do animal estimado seja regular e correta, sem necessidade de constante manutenção humana.</p>
+            <br>
+            <p>Leitor biométrico: Desenvolvimento de um projeto integrado de automação, envolvendo programação de C++, elaboração de diagramas elétricos e criação da estrutura do projeto. Idealizado de modo a substituir a chamada em sala de aula.</p>
+            <br>
+            <h1>Atividades Práticas no Curso Técnico</h2>
+                <ul id="hobby">
+                    <li>Programação de lógicas de controle para processos simulados</li>
+                    <li>Manutenção básica de equipamentos elétricos e automatizados</li>
+                    <li>Participação em estudos de caso e soluções para problemas de automação</li>
+                </ul>
+            <br>
+        </div>
+    </section>
+
+<!-------------------------FOOTER--------------------->
+
+    <footer id="footer">
+        <p>Todos os direitos reservados - Paulo Augusto</p>
+    </footer>
+
+</body>
+</html>

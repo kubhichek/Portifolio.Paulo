@@ -1,0 +1,83 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+****** HEADER & NAV ******
+*/
+#titulo, #menu{
+    background-color: rgb(7, 31, 55);
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(210, 210, 210);
+}
+body{
+    background-color: rgb(60, 94, 118);
+}
+
+#menu a:link, #menu a:visited{
+    color: rgb(210, 210, 210);
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: rgb(0, 0, 0);
+    background: #06c;
+    text-decoration: none;
+}
+
+/*
+****** BOTAO ESCURO E CLARO ******
+*/
+
+#botao{
+    border: none;
+    background-color: rgb(60, 94, 118);
+    color: rgb(210, 210, 210);
+    padding: 12px 16px;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+/*
+****** SELECTION ******
+*/
+
+#conteudo{
+    background: rgb(60, 94, 118);
+    width: 900px;
+    margin: 130px auto;
+    padding: 15px;
+    height: 500px;
+    color: rgb(210, 210, 210);
+    
+}
+
+#hobby{
+    padding-left: 25px;
+}
+
+
+
+/*
+****** FOOTER ******
+*/
+
+#footer{
+    text-align: center;
+    background-color: rgb(7, 31, 55);
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #06c;
+    
+}
